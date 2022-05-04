@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Время срока задачи">
+
+        <EditTextPreference
+            app:key="hours_remind"
+            app:title="Часы"
+            app:defaultValue="1"
+            app:dialogTitle="Устновка часов"
+            app:dialogMessage="Установите через сколько часов задача будет считаться не исполненной"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="min_remind"
+            app:title="Минуты"
+            app:defaultValue="20"
+            app:dialogTitle="Устновка минут"
+            app:dialogMessage="Установите через сколько минут задача будет считаться не исполненной"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="day_remind"
+            app:title="Дни"
+            app:defaultValue="1"
+            app:dialogTitle="Устновка дней"
+            app:dialogMessage="Установите через сколько дней задача будет считаться не исполненной"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

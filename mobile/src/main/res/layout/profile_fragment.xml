@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
+    tools:context=".screens.profile.ProfileFragment">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="15dp"
+                android:text="Профиль пользователя"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_below="@id/tvHead"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@color/blue_dark"
+                    app:cardCornerRadius="10dp"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:padding="18dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:src="@drawable/person_ico"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/tvNickname"
+                                android:layout_marginTop="5dp"
+                                android:textColor="@color/white"
+                                tools:text="Nickname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/edFirstName"
+                                android:textSize="12sp"
+                                android:paddingStart="5dp"
+                                android:hint="Введите новое имя.."
+                                android:background="@drawable/ed_input_edit_profile_head"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+
+                            <EditText
+                                android:id="@+id/edLastName"
+                                android:textSize="12sp"
+                                android:paddingStart="5dp"
+                                android:hint="Введите новую фамилию.."
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/ed_input_edit_profile_bott"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Email адрес"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <EditText
+                            android:id="@+id/edEmail"
+                            android:hint="Введите новый email адрес...."
+                            android:paddingStart="5dp"
+                            android:background="@drawable/ed_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="emailAddress" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Nickname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <EditText
+                            android:id="@+id/edNick"
+                            android:hint="Введите новый nickname...."
+                            android:paddingStart="5dp"
+                            android:background="@drawable/ed_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnEditProfile"
+                        android:layout_marginTop="10dp"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Подтвердить изменения"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="40dp"
+                        android:textColor="@color/white"
+                        android:drawableStart="@drawable/edit_profile_icon"
+                        android:background="@drawable/btn_back_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnExit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@color/color_blue"
+                    android:drawableStart="@drawable/btn_exit_ico"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="Выйти из учетной записи"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+</ScrollView>

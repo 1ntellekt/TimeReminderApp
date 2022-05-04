@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_navigation"
+    app:startDestination="@id/todayFragment">
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.example.timereminderapp.screens.today.TodayFragment"
+        android:label="today_fragment"
+        tools:layout="@layout/today_fragment" />
+    <fragment
+        android:id="@+id/allTasksFragment"
+        android:name="com.example.timereminderapp.screens.alltasks.AllTasksFragment"
+        android:label="all_tasks_fragment"
+        tools:layout="@layout/all_tasks_fragment" />
+    <fragment
+        android:id="@+id/completedFragment"
+        android:name="com.example.timereminderapp.screens.completed.CompletedFragment"
+        android:label="completed_fragment"
+        tools:layout="@layout/completed_fragment" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.timereminderapp.screens.favorites.FavoritesFragment"
+        android:label="favorites_fragment"
+        tools:layout="@layout/favorites_fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.timereminderapp.screens.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+</navigation>

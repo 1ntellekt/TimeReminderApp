@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_3/mobile/src/main/res/layout/all_tasks_fragment.xml" value="0.34954954954954953" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_3/mobile/src/main/res/layout/main_fragment.xml" value="0.34954954954954953" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_3/mobile/src/main/res/layout/profile_fragment.xml" value="0.34954954954954953" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_3/mobile/src/main/res/layout/sign_in_fragment.xml" value="0.34954954954954953" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_3/mobile/src/main/res/layout/sign_up_fragment.xml" value="0.34954954954954953" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/drawable/ic_baseline_notifications_active.xml" value="2.1214285714285714" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/all_tasks_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/completed_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/dialog_add_fav.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/dialog_task_all.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/dialog_task_completed.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/dialog_today_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/favorites_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/item_fav_add_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/item_file_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/item_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/item_task_done.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/item_task_favorite.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/main_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/profile_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/sign_in_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/sign_up_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/mobile/src/main/res/layout/today_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/wear/src/main/res/layout/activity_main.xml" value="1.2" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_5/wear/src/main/res/layout/fragment_sign_in.xml" value="0.3592592592592593" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/dialog_add_fav.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/dialog_task_all.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/dialog_task_completed.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/favorites_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/item_fav_add_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/item_file_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/item_task.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/item_task_done.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/profile_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/mobile/src/main/res/layout/today_fragment.xml" value="0.26216216216216215" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/wear/src/main/res/layout/activity_main.xml" value="1.2" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/wear/src/main/res/layout/activity_today.xml" value="1.2" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_6/wear/src/main/res/layout/item_task_today.xml" value="1.6" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_7/mobile/src/main/res/layout/fragment_settings_time.xml" value="0.303125" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_7/mobile/src/main/res/layout/main_fragment.xml" value="0.303125" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_7/mobile/src/main/res/xml/root_preferences.xml" value="0.303125" />
+        <entry key="..\:/Users/1ntellekt/Desktop/TimeReminderApp_9/mobile/src/main/res/layout/all_tasks_fragment.xml" value="0.300390625" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/drawable/ic_alltasks.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/drawable/ic_completed.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/drawable/ic_person.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/drawable/ic_today.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/all_tasks_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/completed_fragment.xml" value="0.3076923076923077" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/dialog_add_fav.xml" value="0.275" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/dialog_add_today_task.xml" value="0.275" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/dialog_task_all.xml" value="0.275" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/dialog_task_completed.xml" value="0.275" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/dialog_today_task.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/favorites_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_fav_add_task.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_file_task.xml" value="0.5254957507082153" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_task.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_task_done.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_task_favorite.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/item_task_today.xml" value="0.5" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/main_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/profile_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/sign_in_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/sign_up_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/layout/today_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/mobile/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/wear/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/wear/src/main/res/layout/activity_today.xml" value="0.5" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp/wear/src/main/res/layout/item_task_today.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_4/mobile/src/main/res/layout/activity_main.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_4/wear/src/main/res/layout/activity_main.xml" value="1.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_4/wear/src/main/res/layout/activity_today.xml" value="0.6633522727272727" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_4/wear/src/main/res/layout/fragment_sign_in.xml" value="0.6633522727272727" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_4/wear/src/main/res/layout/item_task_today.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_5/mobile/src/main/res/layout/dialog_task_all.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_5/wear/src/main/res/layout/activity_today.xml" value="2.5142857142857142" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_5/wear/src/main/res/layout/fragment_sign_in.xml" value="2.5142857142857142" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_6/mobile/src/main/res/layout/fragment_settings_time.xml" value="0.275" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_6/mobile/src/main/res/layout/main_fragment.xml" value="0.27181467181467184" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_6/mobile/src/main/res/xml/root_preferences.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MyApps/TimeReminderApp_8/mobile/src/main/res/layout/main_fragment.xml" value="0.275" />
+        <entry key="..\:/works/androidWorks/TimeReminderApp_9/mobile/src/main/res/layout/all_tasks_fragment.xml" value="0.2875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

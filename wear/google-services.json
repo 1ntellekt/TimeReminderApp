@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "895106256705",
+    "project_id": "timerremind",
+    "storage_bucket": "timerremind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895106256705:android:8ae706c6414207afb0dbc0",
+        "android_client_info": {
+          "package_name": "com.example.timereminderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895106256705-c0gr9kait6jbirudjvktkamqbqedc0qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timereminderapp",
+            "certificate_hash": "8ff09efb11f89cfa008f68b97b09f29e73b519cb"
+          }
+        },
+        {
+          "client_id": "895106256705-i6bm0gj34a4oofolg2vadv74mnulog8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timereminderapp",
+            "certificate_hash": "11dd984e6fcc24b28ebb35389454f70478f3c253"
+          }
+        },
+        {
+          "client_id": "895106256705-c936bs5q3pf7ndtptrg3v3oehb2d4cnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWwkahhHn0lezg7uzu8QkvCWodHbiaS7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895106256705-c936bs5q3pf7ndtptrg3v3oehb2d4cnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

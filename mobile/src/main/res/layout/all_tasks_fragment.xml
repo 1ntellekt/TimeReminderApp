@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
+    tools:context=".screens.alltasks.AllTasksFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Все запланированные задачи" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSearch"
+                android:layout_below="@id/tvHead"
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@color/color_purple"
+                app:cardCornerRadius="10dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Поиск и фильтрация"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/edNameTask"
+                            android:paddingStart="5dp"
+                            android:hint="Введите название задачи..."
+                            android:background="@drawable/ed_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"/>
+                        <EditText
+                            android:id="@+id/edTagTask"
+                            android:hint="Введите метку задачи..."
+                            android:paddingStart="5dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/ed_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:weightSum="8"
+                        android:layout_height="wrap_content">
+
+
+                       <LinearLayout
+                           android:layout_width="0dp"
+                           android:layout_weight="2"
+                           android:orientation="vertical"
+                           android:layout_height="wrap_content">
+
+                           <TextView
+                               android:textStyle="bold"
+                               android:textColor="@color/white"
+                               android:layout_gravity="center_horizontal"
+                               android:text="По времени"
+                               android:layout_width="wrap_content"
+                               android:layout_weight="2"
+                               android:layout_height="wrap_content"/>
+
+                           <RadioGroup
+                               android:id="@+id/radioGroupTime"
+                               android:orientation="vertical"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content">
+                               <RadioButton
+                                   android:id="@+id/radNew"
+                                   android:textColor="@color/white"
+                                   android:text="сначала новые"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"/>
+                               <RadioButton
+                                   android:id="@+id/radOld"
+                                   android:textColor="@color/white"
+                                   android:text="сначала старые"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"/>
+                           </RadioGroup>
+
+
+                       </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="@color/white"
+                                android:layout_gravity="center_horizontal"
+                                android:text="По статусу"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="2"
+                                android:layout_height="wrap_content"/>
+
+                            <RadioGroup
+                                android:id="@+id/radioGroupStatus"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <RadioButton
+                                    android:id="@+id/radioDone"
+                                    android:textColor="@color/white"
+                                    android:text="завершенные"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                                <RadioButton
+                                    android:id="@+id/radioNoDone"
+                                    android:textColor="@color/white"
+                                    android:text="не завершенные"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            </RadioGroup>
+
+
+                        </LinearLayout>
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnSearch"
+                            android:layout_width="0dp"
+                            android:drawableStart="@drawable/ic_baseline_search"
+                            android:layout_gravity="center_vertical"
+                            android:text="Найти"
+                            android:background="@drawable/btn_back_search"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textAllCaps="false"
+                            android:paddingStart="5dp"
+                            android:layout_weight="3"
+                            android:layout_marginEnd="8dp"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardSearch"
+                android:layout_marginTop="10dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_task" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_task_add_icon"
+        app:tint="@color/white"
+        android:backgroundTint="@color/color_blue"
+        android:id="@+id/btnAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Add new task" />
+
+
+</RelativeLayout>
